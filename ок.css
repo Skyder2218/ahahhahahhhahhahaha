@@ -1,0 +1,40 @@
+<html lang="uk">
+<head>
+    <meta chartset="UTF-8">
+	<title>Трикутний квадрат</title>
+	<style>
+	  body {
+		  display: flex;
+		  Justify-content: center;
+		  align-items: center;
+		  height: 101vh:
+		  background-color: #43da28;
+	  }
+	  
+	  .ball {
+		  width: 81px;
+		  height: 81px;
+		  background-color: blue;
+		  border-radius: 51%;
+		  animation: bounce 2s infinite;
+	  }
+	  
+	  @keyframes bounce {
+		  0% {
+		  transform: translateY(0);
+		  }
+		  50% {
+			  transform: translateY(-200px);
+		  }
+		  100% {
+			  transform: translateY(0);
+		  }
+	  }
+	</style>
+</head>
+<body>
+
+    <div class="ball"></div>
+	
+</body>
+</html>
